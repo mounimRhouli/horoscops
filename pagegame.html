@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Worldview Horoscope</title>
+    <link rel="stylesheet" href="./CSS/games.css" />
+    <script defer src="./JS/main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <article>
+        <div class="icon-menu" onclick="toggleMenu()">
+          <i class="fa fa-bars"></i>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Horoscopes</a></li>
+            <li>
+              <a href="lern about horoscopes.html">Learn About Astrologys </a>
+            </li>
+            <li><a href="pagegame.html">GAME</a></li>
+            <li><a href="carier.html">Career Guidance</a></li>
+          </ul>
+        </div>
+      </article>
+      <header class="head">
+        <div>
+          <img src="./img/image site.png" alt="" />
+        </div>
+        <nav>
+          <ul>
+            <li class="first"><a href="index.html">Horoscopes</a></li>
+            <li>
+              <a href="lern about horoscopes.html">Lern About Astrologys</a>
+            </li>
+            <li><a href="pagegame.html"> GAME</a></li>
+            <li><a href="carier.html">Career Guidance</a></li>
+            <li>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                class="search-icon"
+                name="search"
+                type="text"
+                name="search"
+                id=""
+                placeholder="search"
+              />
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </header>
+    <h1 class="he">Horoscope Games</h1>
+    <main>
+      <aside class="page1">
+        <div class="horo">
+          <h1>Zodiac Sings</h1>
+          <p>Enter your birthdate to get your horoscope:</p>
+          <input type="text" id="birthdate" placeholder="MM/DD/YYYY" />
+          <button id="submit-btn">Submit</button>
+          <div id="horoscope-result"></div>
+        </div>
+        <div class="triva">
+          <h1>Zodiac Trivia Game</h1>
+          <p id="question"></p>
+          <div id="options">
+            <button onclick="checkAnswer(0)">Option 1</button>
+            <button onclick="checkAnswer(1)">Option 2</button>
+            <button onclick="checkAnswer(2)">Option 3</button>
+            <button onclick="checkAnswer(3)">Option 4</button>
+          </div>
+          <p id="score">Score: 0</p>
+        </div>
+      </aside>
+
+      <section class="page2">
+        <div class="compa">
+          <h1>Compatibility Love</h1>
+          <p>Enter your names and see if you are a perfect match!</p>
+
+          <label for="name1">Person 1 Name:</label>
+          <input type="text" id="name1" />
+
+          <label for="name2">Person 2 Name:</label>
+          <input type="text" id="name2" />
+
+          <button onclick="calculateLove()">Calculate Love</button>
+
+          <p id="result"></p>
+        </div>
+
+        <div class="advice">
+          <h1>Love Advice</h1>
+          <h2>Select Your Zodiac Sign:</h2>
+          <select id="zodiacSignSelect">
+            <option value="aries">Aries</option>
+            <option value="taurus">Taurus</option>
+            <option value="gemini">Gemini</option>
+            <option value="cancer">Cancer</option>
+            <option value="leo">Leo</option>
+            <option value="virgo">Virgo</option>
+            <option value="libra">Libra</option>
+            <option value="scorpio">Scorpio</option>
+            <option value="sagittarius">Sagittarius</option>
+            <option value="capricorn">Capricorn</option>
+            <option value="aquarius">Aquarius</option>
+            <option value="pisces">Pisces</option>
+          </select>
+          <button id="getLoveAdviceButton">Get Love Advice</button>
+          <p id="loveAdviceMessage"></p>
+        </div>
+      </section>
+      <aside class="page3">
+        <div class="match">
+          <h1>Astrological Memory Match</h1>
+          <div id="game-board"></div>
+          <div id="game-result"></div>
+        </div>
+        <div class="generat">
+          <h1>Fortune Teller Game</h1>
+          <label for="name">Name:</label>
+          <input type="text" id="name" />
+          <label for="dob">Date of Birth:</label>
+          <input type="text" id="dob" placeholder="DD/MM/YYYY" />
+          <button onclick="generateFortune()">Generate Fortune</button>
+          <div id="fortune-container"></div>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <div class="about">
+        <h1>About us</h1>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h1>Social networks</h1>
+        <ul>
+          <li>
+            <img src="./img/faceboock.jpg" alt="" />
+            <a href="">RMV Horoscpe</a>
+          </li>
+          <li>
+            <img src="./img/twiter.jpg" alt="" />
+            <a href="#">RMV Horoscpe</a>
+          </li>
+          <li>
+            <img src="./img/instagram.png" alt="" />
+            <a href="#">RMV Horoscope</a>
+          </li>
+          <li id="modify">
+            <img src="./img/youtube.png" alt="" />
+            <a href="#">WorldView Horoscope</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sing">
+        <h1>Join Us</h1>
+        <ul>
+          <li><a href="./sing in .html">Sing In</a></li>
+          <li><a href="./Log IN.html">Log In</a></li>
+        </ul>
+      </div>
+
+      <div class="resource">
+        <h1>Others Resources</h1>
+        <ul>
+          <li><a href="https://www.tarot.com">Tarot.com</a></li>
+          <li><a href="https://www.tarot.com/">AstroStyle.com</a></li>
+          <li>
+            <a
+              href="https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=2"
+              >Horoscope.com</a
+            >
+          </li>
+          <li><a href="https://cafeastrology.com/">CafeAstrology.com</a></li>
+          <li>
+            <a href="https://www.astrology.com/us/home.aspx">Astrology.com</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

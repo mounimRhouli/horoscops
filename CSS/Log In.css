@@ -1,0 +1,43 @@
+body {
+  background-color: #f2f2f2;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+section img {
+  width: 150px;
+  margin-bottom: 20px;
+  height: 150px;
+  border-radius: 50px;
+}
+
+section input {
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  border-color: darkcyan;
+}
+section button {
+  padding: 10px 20px;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+section button:hover {
+  background-color: #524dcf;
+}

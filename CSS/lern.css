@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0px;
+  text-decoration: none;
+}
+body {
+  background-color: #f5f5f5;
+}
+li {
+  display: block;
+}
+.ulh li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+  gap: 20px;
+}
+.ulh p {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+}
+.menu {
+  display: none;
+  background-color: #252324;
+  width: 30vh;
+  height: 90vh;
+}
+.menu ul li {
+  margin-bottom: 35px;
+  font-size: 22px;
+  margin-top: 5px;
+}
+.menu.show {
+  display: block;
+}
+header {
+  font-size: 20px;
+}
+header header {
+  display: flex;
+  align-items: center;
+  background-color: #252324;
+  color: white;
+  flex: 1;
+  height: 60px;
+  padding-left: 40px;
+}
+header img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+header nav > ul {
+  display: flex;
+  flex: 1;
+  gap: 70px;
+}
+
+header nav {
+  display: flex;
+  flex: 1;
+}
+
+.ulh div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body > header {
+  display: flex;
+}
+article {
+  align-items: center;
+  padding-top: 15px;
+  color: white;
+  position: absolute;
+}
+header div img {
+  margin-left: 50px;
+}
+.first {
+  margin-left: 20px;
+}
+header a {
+  color: white;
+}
+
+.head a:hover {
+  background: #1b9bff;
+  transition: 0.5s;
+  padding: 5px;
+  border-radius: 70px;
+}
+.icon-menu {
+  background-color: transparent;
+  font-size: 30px;
+  padding-left: 15px;
+}
+.menu ul {
+  padding: 20px;
+}
+.menu li {
+  background-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+}
+.search-icon {
+  border: none;
+}
+.search-icon {
+  border: none;
+  height: 25px;
+  width: 300px;
+  margin-left: 110px;
+  border-radius: 8px;
+}
+/* main  */
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  gap: 40px;
+  margin-bottom: 45px;
+}
+/* plane  */
+.planet {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 2;
+}
+
+.planet li {
+  margin-bottom: 20px;
+}
+
+.planet ul li h1 {
+  color: #006a4e;
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 30px;
+  font-style: oblique;
+}
+.planet > h1 {
+  color: #006a4e;
+  font-size: 30px;
+}
+.planet iframe {
+  height: 327px;
+  width: 342px;
+  margin-bottom: 12px;
+  margin-top: 8px;
+  border-radius: 10px;
+}
+.planet > h2 {
+  margin-bottom: 22px;
+  margin-top: 8px;
+  font-size: 1.5rem;
+  color: #452c63;
+}
+.planet ul li p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.planet img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+/* qualities */
+.qalities {
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 3;
+}
+.qalities > h1 {
+  text-align: center;
+  color: #b31b1b;
+  font-size: 30px;
+}
+.qalities > h2 {
+  margin-bottom: 1px;
+  margin-top: 14px;
+  color: #9e1b32;
+  font-size: 1.5rem;
+}
+.qalities ul li h2 {
+  color: #9e1b32;
+}
+.qalities .set {
+  font-size: 25px;
+  color: #e34234;
+}
+
+.qalities > ul h1 {
+  text-align: center;
+  color: #b31b1b;
+  margin-bottom: 13px;
+  margin-top: 15px;
+  font-size: 33px;
+  font-style: italic;
+}
+.qalities ul li {
+  margin-bottom: 55px;
+}
+.qalities ul li p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Section videos */
+.qalities video {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 348px;
+  border-radius: 10px;
+}
+.qalities img {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+/* Section inner divs */
+.qalities div > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Section inner divs h2 */
+.qalities div > div h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.qalities div > div h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* element */
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  flex: 2;
+}
+.element div h1 {
+  text-align: center;
+  color: #5d8aa8;
+  font-size: 33px;
+  font-style: oblique;
+  margin-bottom: 10px;
+  margin-top: 12px;
+}
+.element > div > h1 {
+  text-align: center;
+  color: #5d8aa8;
+  font-size: 30px;
+  font-style: normal;
+  margin-top: 0.2px;
+}
+.element > div h2 {
+  font-size: 1.4rem;
+  margin-bottom: 3px;
+  color: #002d62;
+}
+.element p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.element video {
+  width: 100%;
+  height: 254px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+.element img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.element > div > img {
+  height: 321px;
+}
+.element div .segest {
+  font-size: 25px;
+  color: #008080;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e1ebee;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+footer img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.contact {
+  margin-top: 10px;
+}
+.contact ul {
+  text-align: center;
+}
+.contact ul li {
+  margin-top: 7px;
+  color: slateblue;
+  font-size: 18px;
+}
+.contact ul li a {
+  color: slateblue;
+}
+
+.contact h1 {
+  font-size: 25px;
+  font-style: italic;
+  color: #004170;
+}
+.about {
+  margin-left: 74px;
+}
+.about H1 {
+  text-align: center;
+  margin-bottom: 17px;
+  color: #004170;
+  font-size: 25px;
+}
+.about ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 18px;
+  text-align: center;
+  color: cadetblue;
+}
+.about ul li {
+  color: cadetblue;
+}
+.about ul li a {
+  color: cadetblue;
+}
+.resource {
+  margin-top: 10px;
+  margin-right: 74px;
+}
+.resource ul {
+  text-align: center;
+}
+.resource ul li {
+  margin-top: 7px;
+  font-size: 16px;
+  color: cadetblue;
+  font-size: 18px;
+}
+.resource ul li a {
+  color: cadetblue;
+}
+.resource H1 {
+  font-size: 25px;
+  font-style: italic;
+  color: #004170;
+}
+.sing {
+  margin-top: 10px;
+}
+.sing ul li a {
+  color: slateblue;
+}
+.sing H1 {
+  font-size: 25px;
+  font-style: italic;
+  color: #004170;
+}
+.sing ul li {
+  text-align: center;
+  margin-top: 17px;
+  font-size: 21px;
+  color: slateblue;
+}

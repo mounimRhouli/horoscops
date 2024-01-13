@@ -1,0 +1,553 @@
+* {
+  padding: 0;
+  margin: 0px;
+  text-decoration: none;
+}
+li {
+  display: block;
+}
+
+.ulh li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+  gap: 20px;
+  color: white;
+}
+.ulh p {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+}
+.menu {
+  display: none;
+  background-color: #252324;
+  width: 30vh;
+  height: 90vh;
+}
+.menu ul li {
+  margin-bottom: 35px;
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+.menu.show {
+  display: block;
+}
+header {
+  font-size: 20px;
+}
+header header {
+  display: flex;
+  align-items: center;
+  background-color: #252324;
+  color: white;
+  flex: 1;
+  height: 60px;
+  padding-left: 40px;
+}
+header img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+header nav > ul {
+  display: flex;
+  flex: 1;
+  gap: 70px;
+}
+header nav {
+  display: flex;
+  flex: 1;
+}
+.ulh div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body > header {
+  display: flex;
+}
+article {
+  align-items: center;
+  padding-top: 15px;
+  color: white;
+  position: absolute;
+}
+header div img {
+  margin-left: 50px;
+}
+.first {
+  margin-left: 20px;
+}
+.head a:hover {
+  background: #1b9bff;
+  transition: 0.5s;
+  padding: 5px;
+  border-radius: 70px;
+}
+.icon-menu {
+  background-color: transparent;
+  font-size: 30px;
+  padding-left: 15px;
+}
+.menu ul {
+  padding: 20px;
+}
+.menu li {
+  background-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+}
+.search-icon {
+  border: none;
+  height: 25px;
+  width: 300px;
+  margin-left: 110px;
+  border-radius: 8px;
+}
+.search-icon {
+  border: none;
+}
+header a {
+  color: white;
+}
+/* body */
+body {
+  background-color: #f5f5f5;
+}
+.he {
+  text-align: center;
+  margin-top: 8px;
+  font-style: oblique;
+  color: #6699cc;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+aside > div,
+section > div {
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* style gam1 */
+main h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 30px;
+}
+.horo p {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+.horo input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 1.5em;
+  padding: 10px;
+}
+.horo button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.horo #horoscope-result {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 30px;
+  height: 1px;
+}
+.horo h1 {
+  color: darkslategrey;
+  background-color: #4caf50;
+  border-radius: 30px;
+}
+/* style game 2 */
+.page1 {
+  margin-left: 12px;
+}
+.triva {
+  margin-top: 167px;
+}
+#trivia-game {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+#question {
+  font-size: 21px;
+  font-weight: bold;
+  color: black;
+  padding-top: 27px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#options {
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.triva H1 {
+  font-size: bold;
+  color: darkslategrey;
+  background-color: #4caf50;
+  border-radius: 30px;
+}
+#options button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: gray;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  color: black;
+  font-size: 28px;
+  text-align: center;
+}
+#score {
+  margin-top: 10px;
+  font-weight: bold;
+  color: darkslategrey;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+}
+/* style game 3 */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.compa h1 {
+  background-color: rosybrown;
+  border-radius: 30px;
+  text-align: center;
+  color: darkslategrey;
+}
+.compa p {
+  font-size: 22px;
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+.compa label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-style: oblique;
+}
+.compa input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 13px;
+  font-size: 16px;
+  border-color: pink;
+}
+.compa button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.compa #result {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  padding: 14px;
+  height: 1px;
+  font-style: oblique;
+}
+/* style gam4 */
+.advice {
+  padding: 30px;
+  border-radius: 28px;
+}
+.advice h1 {
+  background-color: rosybrown;
+  border-radius: 30px;
+  text-align: center;
+  color: darkslategrey;
+}
+.advice h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+.advice select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.advice button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.advice #loveAdviceMessage {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  padding: 19px;
+  font-style: oblique;
+}
+/* game 5 */
+.page3 {
+  margin-right: 12px;
+}
+.match h1 {
+  text-align: center;
+  background-color: #318ce7;
+  border-radius: 30px;
+  color: darkslategrey;
+}
+
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.card {
+  width: 80px;
+  height: 80px;
+  background-color: #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card.hidden {
+  background-color: #ddd;
+}
+.card.matched {
+  background-color: #8aff8a;
+  cursor: default;
+}
+/* game 6  */
+.fortune {
+  width: 200px;
+  height: 200px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container {
+  margin: 0 auto;
+}
+.generat h1 {
+  text-align: center;
+  background-color: #318ce7;
+  border-radius: 30px;
+  color: darkslategrey;
+  margin-bottom: 9px;
+}
+.generat label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 19px;
+}
+.generat input {
+  width: 450px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.generat button {
+  display: block;
+  width: 470px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.generat button:hover {
+  background-color: #0056b3;
+}
+.aside2 {
+  width: 500px;
+}
+/* Fortune container */
+#fortune-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #b9d9eb;
+  flex-wrap: wrap;
+}
+.fortune {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ccccff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  height: 145px;
+  width: 190px;
+}
+
+.fortune:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.fortune h2 {
+  font-size: 19px;
+  margin-bottom: 10px;
+  color: #6050dc;
+}
+.fortune p {
+  font-size: 15px;
+  color: #666;
+  font-size: 17px;
+}
+#game-result {
+  padding: 20px;
+  font-size: 21px;
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e1ebee;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+footer img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+.contact {
+  margin-top: 10px;
+}
+.contact ul {
+  text-align: center;
+}
+.contact ul li {
+  margin-top: 7px;
+  color: slateblue;
+  font-size: 18px;
+}
+.contact ul li a {
+  color: slateblue;
+}
+
+.contact h1 {
+  font-size: 25px;
+  font-style: italic;
+  color: #004170;
+}
+.about {
+  margin-left: 74px;
+}
+.about H1 {
+  text-align: center;
+  margin-bottom: 17px;
+  color: #004170;
+  font-size: 25px;
+}
+.about ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 18px;
+  text-align: center;
+  color: cadetblue;
+}
+.about ul li {
+  color: cadetblue;
+}
+.about ul li a {
+  color: cadetblue;
+}
+.resource {
+  margin-top: 10px;
+  margin-right: 74px;
+}
+.resource ul {
+  text-align: center;
+}
+.resource ul li {
+  margin-top: 7px;
+  font-size: 16px;
+  color: cadetblue;
+  font-size: 18px;
+}
+.resource ul li a {
+  color: cadetblue;
+}
+.resource H1 {
+  font-size: 25px;
+  font-style: italic;
+  color: #004170;
+}
+.sing {
+  margin-top: 10px;
+}
+.sing ul li a {
+  color: slateblue;
+}
+.sing H1 {
+  font-size: 25px;
+  font-style: italic;
+  color: #004170;
+}
+.sing ul li {
+  text-align: center;
+  margin-top: 17px;
+  font-size: 21px;
+  color: slateblue;
+}
